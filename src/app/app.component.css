@@ -1,5 +1,5 @@
 main {
-    background: url("/src/assets/imagem/background-completo.png");
+    background: url("../assets/imagem/background-completo.png");
     background-size: cover;
     min-height: 60vh;
 }
