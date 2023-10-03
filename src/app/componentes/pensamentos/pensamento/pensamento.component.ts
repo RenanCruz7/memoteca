@@ -1,3 +1,4 @@
+import { Pensamento } from './../pensamento';
 import { Component, Input } from '@angular/core';
 
 @Component({
@@ -11,7 +12,8 @@ export class PensamentoComponent {
    Diretiva input para dizer que esse objeto recebera os dados de um outro componente 
    com os seguintes atributos
    */
-  @Input() pensamento = {
+  @Input() pensamento: Pensamento = {
+    id:0,
     conteudo: "",
     autoria: "",
     modelo: ''
