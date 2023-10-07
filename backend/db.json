@@ -12,7 +12,7 @@
       "conteudo": "Estudando Angular",
       "autoria": "Dev Alura",
       "modelo": "modelo2",
-      "favorito": false
+      "favorito": true
     },
     {
       "conteudo": "dfasdfasd",
@@ -32,7 +32,7 @@
       "conteudo": "teste 5",
       "autoria": "teste 5",
       "modelo": "modelo3",
-      "favorito": false,
+      "favorito": true,
       "id": 11
     },
     {
