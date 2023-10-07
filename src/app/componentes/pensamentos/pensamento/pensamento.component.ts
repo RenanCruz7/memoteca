@@ -1,3 +1,4 @@
+import { PensamentoService } from '../pensamento.service';
 import { Pensamento } from './../pensamento';
 import { Component, Input } from '@angular/core';
 
@@ -16,8 +17,14 @@ export class PensamentoComponent {
     id:0,
     conteudo: "",
     autoria: "",
-    modelo: ''
+    modelo: '',
+    favorito: false
   }
+  constructor(private service:PensamentoService) {
+    
+  }
+
+
 
   larguraPensamento(): string{
     if(this.pensamento.conteudo.length >= 256) {
@@ -25,4 +32,17 @@ export class PensamentoComponent {
     }
     return 'pensamento-p'
   }
+
+  mudarIconeFavorito(): string{
+    if(this.pensamento.favorito == true){
+      return 'ativo'
+    }
+    return 'inativo'
+    
+  }
+
+  atualizarFavoritos(){
+    this.service.mudarFavorito(this.pensamento).subscribe()
+  }
+
 }

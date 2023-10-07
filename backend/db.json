@@ -4,42 +4,49 @@
       "id": 1,
       "conteudo": "Que bom que vc veio",
       "autoria": "Nay",
-      "modelo": "modelo1"
+      "modelo": "modelo1",
+      "favorito": false
     },
     {
       "id": 2,
       "conteudo": "Estudando Angular",
       "autoria": "Dev Alura",
-      "modelo": "modelo2"
+      "modelo": "modelo2",
+      "favorito": false
     },
     {
       "conteudo": "dfasdfasd",
       "autoria": "fasdfasd",
       "modelo": "modelo2",
+      "favorito": false,
       "id": 9
     },
     {
       "conteudo": "teste 4",
       "autoria": "teste 4",
       "modelo": "modelo3",
+      "favorito": false,
       "id": 10
     },
     {
       "conteudo": "teste 5",
       "autoria": "teste 5",
       "modelo": "modelo3",
+      "favorito": false,
       "id": 11
     },
     {
       "conteudo": "sdafasdf",
       "autoria": "fsadfasdfas",
       "modelo": "modelo3",
+      "favorito": false,
       "id": 12
     },
     {
       "conteudo": "dfaweqrqwer",
       "autoria": "eqwqewrqwerqwe",
       "modelo": "modelo1",
+      "favorito": false,
       "id": 13
     }
   ]
